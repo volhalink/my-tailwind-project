@@ -40,3 +40,7 @@ live-server public
 ## 2. The Utility-First Workflow
 
 [Video](https://www.youtube.com/watch?v=Ybybd3GCNn4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=2)
+
+## 3. Responsive Design
+
+[Video](https://www.youtube.com/watch?v=Ff_n_QClipQ&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=3)
