@@ -44,3 +44,14 @@ live-server public
 ## 3. Responsive Design
 
 [Video](https://www.youtube.com/watch?v=Ff_n_QClipQ&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=3)
+
+Prefix classes with sm:, md:, lg: and xl: for applying styles to the screen sizes starting with the prefix's widh till the next size's class met. Eg. if you set different background colors with sm: and lg: prefixes then the color for sm will also apply to the all the widths till the wids of lg and you don't need to repeat it for md:
+
+## 4. Hover, Focus, and Active Styles
+
+[Video](https://www.youtube.com/watch?v=olyRu5R1EZ4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=4)
+
+## 5. Designing with Tailwind CSS: Composing Utilities with @apply
+
+[Video](https://www.youtube.com/watch?v=krSgBUmIgP0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=5)
+
