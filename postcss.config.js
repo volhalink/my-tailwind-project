@@ -1,10 +1,8 @@
-const purgecss = require('@fullhuman/postcss-purgecss')
-
 module.exports = {
     plugins: [
         require('tailwindcss'),
         require('autoprefixer'),
-        purgecss({
+        process.env.NODE_ENV === 'production' && require('@fullhuman/postcss-purgecss')({
             content: [
                 './src/**/*.vue',
                 './index.html'
