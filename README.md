@@ -53,11 +53,11 @@ Prefix classes with sm:, md:, lg: and xl: for applying styles to the screen size
 
 [Video](https://www.youtube.com/watch?v=olyRu5R1EZ4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=4)
 
-## 5. Designing with Tailwind CSS: Composing Utilities with @apply
+## 5. Composing Utilities with @apply
 
 [Video](https://www.youtube.com/watch?v=krSgBUmIgP0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=5)
 
-## 6. Designing with Tailwind CSS: Extracting Reusable Components
+## 6. Extracting Reusable Components
 
 Use vue components for deduplication.
 
@@ -69,7 +69,7 @@ Use vue components for deduplication.
 
 [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
 
-## 7. Designing with Tailwind CSS: Customizing Your Design System
+## 7. Customizing Your Design System
 
 [Video](https://www.youtube.com/watch?v=wtW6LodXkls&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=7)
 
@@ -100,7 +100,7 @@ This is good when we have the whole color palette provided by the desiner to be 
 
 If it's not the case and we simply want to add some new colors => we should add the `colors` to `extend` of the `theme`.
 
-## 8. Designing with Tailwind CSS: Optimizing for Production with Purgecss
+## 8. Optimizing for Production with Purgecss
 
 [Video](https://www.youtube.com/watch?v=bhoDwo24K5Q&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=8)
 
@@ -130,3 +130,37 @@ module.exports = {
 Difference in size of built css file, first one is a regular size and second is the one with `purgecss` applied:
 
 ![build with and without purgecss](/doc-img/build_with_and_without_purgecss.jpg)
+
+## 9. Structuring a Basic Card
+
+[Video](https://www.youtube.com/watch?v=1OUbP0rGFNs&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=9)
+
+## 10. Making Text Content Feel Designed
+
+[Video](https://www.youtube.com/watch?v=5byxwJce6zc&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=10)
+
+## 11. Working with SVG Icons
+
+[Video](https://www.youtube.com/watch?v=MbUyHQRq2go&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=11)
+
+[SVG icons (Heroicons)](https://heroicons.com/)
+
+[SVG background patterns (Hero Patterns)](https://heropatterns.com/)
+
+More resources [here](https://tailwindcss.com/resources).
+
+Alternative SVG icons: [Zondicons](https://www.zondicons.com/) and [Entypo](http://www.entypo.com/).
+
+SVG optimization can be done with [SVGOMG](https://jakearchibald.github.io/svgomg/)
+
+```
+Tips: 
+
+Always export icons as a squers (eg. viewBox="0 0 24 24") as it's easier to style them in this case.
+
+Use utilities' classes to actually size the icons (eg. h-4, w-4).
+
+Use class fill-current to fill the icon with the text color (eg. text-teal-500).
+
+Align icons with the rest of the elements by using classes flex and items-center in parent container.
+``` 

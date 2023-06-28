@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="antialiased text-gray-900">
     <div class="bg-gray-100 flex">
       <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class="xl:max-w-lg xl:ml-auto">
@@ -33,16 +33,21 @@
         </div>
       </div>
     </div>
+    <div class="bg-gray-200 min-h-screen p-8 flex items-center justify-center">
+      <PropertyCard :property="property"/>
+    </div>
   </div>
 </template>
 
 <script>
 import DestinationCard from './components/DestinationCard'
+import PropertyCard from './components/PropertyCard'
 
 export default {
   name: 'app',
   components: {
     DestinationCard,
+    PropertyCard,
   },
   data() {
     return {
@@ -89,7 +94,18 @@ export default {
           imageUrl: '/img/miami.jpg',
           imageAlt: 'Beach in Miami',
         },
-      ]
+      ],
+      property: {
+        imageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        imageAlt: 'Rear view of modern home with pool',
+        beds: 3,
+        baths: 2,
+        title: "Modern home in city center",
+        priceInCents: 190000,
+        formattedPrice: "$1,900.00",
+        reviewCount: 34,
+        rating: 4,
+      }
     }
   }
 }
