@@ -164,3 +164,13 @@ Use class fill-current to fill the icon with the text color (eg. text-teal-500).
 
 Align icons with the rest of the elements by using classes flex and items-center in parent container.
 ``` 
+
+## 12. Designing a Badge
+
+[Video](https://www.youtube.com/watch?v=G2Mllr1pq-0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=12)
+
+```
+Tip:
+
+Align items with different font size in a flex container with items-baseline class applied to the container.
+```
