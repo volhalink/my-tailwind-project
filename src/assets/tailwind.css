@@ -2,7 +2,7 @@
 @tailwind components;
 
 .btn {
-    @apply inline-block px-5 py-3 rounded-lg uppercase tracking-wider font-semibold 
+    @apply inline-block px-5 py-3 rounded-lg uppercase tracking-wider font-semibold mr-1 
 }
 
 .btn-indigo {

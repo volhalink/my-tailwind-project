@@ -55,3 +55,14 @@ Prefix classes with sm:, md:, lg: and xl: for applying styles to the screen size
 
 [Video](https://www.youtube.com/watch?v=krSgBUmIgP0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=5)
 
+## 6. Designing with Tailwind CSS: Extracting Reusable Components
+
+Use vue components for deduplication.
+
+[Video](https://www.youtube.com/watch?v=3OdRwZu0FQU&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=6)
+
+[Git repository of the tutoral.](https://github.com/tailwindlabs/designing-with-tailwindcss/tree/master/01-getting-up-and-running/06-extracting-reusable-components) Needs update to newer versions of dependencies and migration to vite.
+
+[How to Migrate from Vue CLI to Vite](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/)
+
+[Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
