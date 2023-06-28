@@ -2,6 +2,8 @@
 
 The official Tailwind CSS YouTube channel's [video tutorial series](https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR) that walk through the basics of using the framework, including topics like styling typography, creating layouts, and working with responsive design.
 
+[Git repository](https://github.com/tailwindlabs/designing-with-tailwindcss)
+
 ## 1. Setting up Tailwind and PostCSS
 
 [Video](https://www.youtube.com/watch?v=21HuwjmuS7A&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=1)
@@ -66,3 +68,34 @@ Use vue components for deduplication.
 [How to Migrate from Vue CLI to Vite](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/)
 
 [Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
+
+## 7. Designing with Tailwind CSS: Customizing Your Design System
+
+[Video](https://www.youtube.com/watch?v=wtW6LodXkls&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=7)
+
+
+There are several approaches to customize the tailwind design system.
+
+#### Generate the full config and edit it:
+
+```
+npx tailwind init tailwind-full.config.js --full
+```
+
+But in this case it is difficult to tell what has been changed and what is actually the default setting. The other downside of this approach is that when the new version of tailwind comes out, the generated config won't be updated with any new values. But it can also be a good thing as the new versions of tailwind won't accidantly bring new style / design to the project.
+
+#### Customize by overriding just needed options in the default config:
+
+Add the values you want to override to the
+```
+theme: {
+    extend: {},
+  },
+```
+section of the `tailwind.config.js`.
+
+If we simply add eg. `colors` directly to the `theme` we will override the entire colors palette of the tailwind (none of the previously existing colors like indigo, gray etc. will be present).
+
+This is good when we have the whole color palette provided by the desiner to be used for the project. 
+
+If it's not the case and we simply want to add some new colors => we should add the `colors` to `extend` of the `theme`.
