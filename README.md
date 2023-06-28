@@ -99,3 +99,34 @@ If we simply add eg. `colors` directly to the `theme` we will override the entir
 This is good when we have the whole color palette provided by the desiner to be used for the project. 
 
 If it's not the case and we simply want to add some new colors => we should add the `colors` to `extend` of the `theme`.
+
+## 8. Designing with Tailwind CSS: Optimizing for Production with Purgecss
+
+[Video](https://www.youtube.com/watch?v=bhoDwo24K5Q&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=8)
+
+Use [Purgecss](https://purgecss.com/) to generate only the part of tailwind css the project requires.
+
+```
+npm i -D @fullhuman/postcss-purgecss
+```
+
+In `postcss.config.js`:
+```
+const purgecss = require('@fullhuman/postcss-purgecss')
+
+module.exports = {
+  plugins: [
+    purgecss({
+            content: [
+                './src/**/*.vue',
+                './index.html'
+            ],
+            defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
+          }),
+  ]
+}
+```
+
+Difference in size of built css file, first one is a regular size and second is the one with `purgecss` applied:
+
+![build with and without purgecss](/doc-img/build_with_and_without_purgecss.jpg)
