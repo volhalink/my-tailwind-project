@@ -204,3 +204,7 @@ Use negative margines to layer elements, like `-mt-4`.
 If the element is set to `relative` it'll be on top of the regular elements. If to `relative` elements come one by one, the second one will be on top of the first one. `z` index has no effect on the elements without a position.
 
 Use different shadows for different layers. Stronger one for the top layer.
+
+## 16. Building a Navbar Layout with Flexbox
+
+`flex` container + `items-center` + `justify-right` or `justify-between` or `justify-around`.

@@ -1,5 +1,8 @@
 <template>
   <div id="app" class="antialiased text-gray-900">
+    <div>
+      <NavbarHeader />
+    </div>
     <div class="bg-gray-100 flex">
       <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class="xl:max-w-lg xl:ml-auto">
@@ -42,12 +45,14 @@
 <script>
 import DestinationCard from './components/DestinationCard'
 import PropertyCard from './components/PropertyCard'
+import NavbarHeader from './components/NavbarHeader'
 
 export default {
   name: 'app',
   components: {
     DestinationCard,
     PropertyCard,
+    NavbarHeader,
   },
   data() {
     return {
