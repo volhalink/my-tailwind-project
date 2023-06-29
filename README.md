@@ -208,3 +208,7 @@ Use different shadows for different layers. Stronger one for the top layer.
 ## 16. Building a Navbar Layout with Flexbox
 
 `flex` container + `items-center` + `justify-right` or `justify-between` or `justify-around`.
+
+## 17. Toggling the Navbar Links on Mobile
+
+[Video](https://www.youtube.com/watch?v=5mFGl566wc0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=17)
