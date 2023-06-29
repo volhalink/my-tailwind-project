@@ -182,3 +182,15 @@ Align items with different font size in a flex container with items-baseline cla
 `object-contain`, `object-cover`; `object-center`, `object-top`, `object-bottom`, `object-left`, `object-right`
 
 `bg-cover` for background images.
+
+## 14. Locking an Image to a Fixed Aspect Ratio
+
+[Video](https://www.youtube.com/watch?v=jl_tdhBxc_Y&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=14)
+
+Wrap image with div. Set div's padding bottom in percent. And make it `relative`. Set image's position `absolute` and set its width and heigt to full:
+
+```
+<div class="relative pb-2/3">
+  <img class="absolute h-full w-full object-cover" :src="property.imageUrl" :alt="property.imageAlt">
+</div>
+```
