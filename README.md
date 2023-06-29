@@ -194,3 +194,8 @@ Wrap image with div. Set div's padding bottom in percent. And make it `relative`
   <img class="absolute h-full w-full object-cover" :src="property.imageUrl" :alt="property.imageAlt">
 </div>
 ```
+
+## 15. Creating Depth with Shadows and Layers
+
+[Video](https://www.youtube.com/watch?v=vZdxUGX3qdA&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=15)
+

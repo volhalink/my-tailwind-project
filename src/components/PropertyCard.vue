@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white border rounded-lg overflow-hidden">
+    <div class="bg-white rounded-lg overflow-hidden shadow-xl">
       <!-- <div class="h-48 bg-cover bg-center" :style="{ backgroundImage: `url('${property.imageUrl}')`}"></div> -->
       <div class="relative pb-2/3">
         <img class="absolute h-full w-full object-cover" :src="property.imageUrl" :alt="property.imageAlt">
