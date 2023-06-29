@@ -199,3 +199,8 @@ Wrap image with div. Set div's padding bottom in percent. And make it `relative`
 
 [Video](https://www.youtube.com/watch?v=vZdxUGX3qdA&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=15)
 
+Use negative margines to layer elements, like `-mt-4`.
+
+If the element is set to `relative` it'll be on top of the regular elements. If to `relative` elements come one by one, the second one will be on top of the first one. `z` index has no effect on the elements without a position.
+
+Use different shadows for different layers. Stronger one for the top layer.
