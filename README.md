@@ -174,3 +174,11 @@ Tip:
 
 Align items with different font size in a flex container with items-baseline class applied to the container.
 ```
+
+## 13. Cropping and Positioning Images
+
+[Video](https://www.youtube.com/watch?v=ldtwvIR6_qU&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=13)
+
+`object-contain`, `object-cover`; `object-center`, `object-top`, `object-bottom`, `object-left`, `object-right`
+
+`bg-cover` for background images.
