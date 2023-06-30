@@ -12,6 +12,7 @@
             </svg>
           </button>
         </div>
+        <AccountDropdown />
     </div>
     <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
       <a href="#" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">List your property</a>
@@ -22,7 +23,12 @@
   </template>
   
   <script>
+  import AccountDropdown from './AccountDropdown'
+
   export default {
+    components: {
+      AccountDropdown
+    },
     data() {
       return {
         isOpen: false,

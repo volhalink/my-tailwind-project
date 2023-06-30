@@ -216,3 +216,7 @@ Use different shadows for different layers. Stronger one for the top layer.
 ## 18. Making the Navbar Responsive
 
 [Video](https://www.youtube.com/watch?v=qrTsS3z8BAw&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=18)
+
+## 19. Styling a Dropdown Menu
+
+[Video](https://www.youtube.com/watch?v=TQFW3AtrDw4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=19)
