@@ -212,3 +212,7 @@ Use different shadows for different layers. Stronger one for the top layer.
 ## 17. Toggling the Navbar Links on Mobile
 
 [Video](https://www.youtube.com/watch?v=5mFGl566wc0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=17)
+
+## 18. Making the Navbar Responsive
+
+[Video](https://www.youtube.com/watch?v=qrTsS3z8BAw&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=18)
