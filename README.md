@@ -226,3 +226,15 @@ Use different shadows for different layers. Stronger one for the top layer.
 [Video](https://www.youtube.com/watch?v=H069P7FVIo0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=20)
 
 When we set elements position to `absolute` it is aligned according to the nearest positioned element. By default elements are `static`, so if there are no other elements with set positioning - the nearest positioned element is `body`. To fix it, we can set the nearest container to be positioned as `relative` so it counts as a positioned element but behaves almost the same way as in case of `static` positioning.
+
+## 21. Making the Dropdown Interactive
+
+[Video](https://www.youtube.com/watch?v=If6XdbBQqmY&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=21)
+
+Positio `fixed` makes the element relative to the viewport not to the closest positioned element as in case of position `absolute`.
+
+As covering area is a button we add `cursor-default` to it so the cursor dosen't look like if want really click the button (even though it is a button by implementation).
+
+`tabindex="-1"` makes the button inaccesable from the keyboard so it doesn't add a step between the avatar and many items when tabbing.
+
+`inset-0` is a replacement for `top-0 right-0 bottom-0 left-0`. Or `inset-x-0` for `left-0 right-0` and `inset-y-0` for `top-0 bottom-0`.
