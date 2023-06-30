@@ -238,3 +238,7 @@ As covering area is a button we add `cursor-default` to it so the cursor dosen't
 `tabindex="-1"` makes the button inaccesable from the keyboard so it doesn't add a step between the avatar and many items when tabbing.
 
 `inset-0` is a replacement for `top-0 right-0 bottom-0 left-0`. Or `inset-x-0` for `left-0 right-0` and `inset-y-0` for `top-0 bottom-0`.
+
+## 22. Adapting the Dropdown for Mobile
+
+[Video](https://www.youtube.com/watch?v=DL_ziY383xg&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=22)
