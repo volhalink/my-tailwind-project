@@ -220,3 +220,9 @@ Use different shadows for different layers. Stronger one for the top layer.
 ## 19. Styling a Dropdown Menu
 
 [Video](https://www.youtube.com/watch?v=TQFW3AtrDw4&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=19)
+
+## 20. Positioning the Dropdown Area
+
+[Video](https://www.youtube.com/watch?v=H069P7FVIo0&list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR&index=20)
+
+When we set elements position to `absolute` it is aligned according to the nearest positioned element. By default elements are `static`, so if there are no other elements with set positioning - the nearest positioned element is `body`. To fix it, we can set the nearest container to be positioned as `relative` so it counts as a positioned element but behaves almost the same way as in case of `static` positioning.
